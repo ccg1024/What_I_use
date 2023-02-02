@@ -40,7 +40,7 @@ export default function ThemeToggle() {
     {themes.map(t => {
       const checked = t === theme
       return (
-        <button key={t} className={`${checked ? 'bg-white' : ''} cursor-pointer rounded-3xl p-2`}
+        <button key={t} className={`${checked ? 'bg-white text-black' : ''} cursor-pointer rounded-3xl p-2`}
           onClick={toggleTheme}
           aria-label="Toggle theme"
         >{t === 'light' ? <IoSunny /> : <IoMoon />}</button>
