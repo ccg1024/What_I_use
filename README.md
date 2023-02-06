@@ -3,3 +3,5 @@ This project is built through Astro, Tailwind CSS and React, corresponding to th
 ### preview
 
 ![preview](img/shotcut.png)
+
+![preview-dark](img/shotcut-dark.png)
