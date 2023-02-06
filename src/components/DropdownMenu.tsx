@@ -31,14 +31,8 @@ export default function DropdowMenu() {
             <DropdownMenuItem href="/categories/computing">
               Computing
             </DropdownMenuItem>
-            <DropdownMenuItem href="/categories/desk">
-              Desk
-            </DropdownMenuItem>
-            <DropdownMenuItem href='/categories/videography'>
-              Videography
-            </DropdownMenuItem>
-            <DropdownMenuItem href='/categories/test'>
-              Test
+            <DropdownMenuItem href="/categories/editor">
+              Editor
             </DropdownMenuItem>
           </div>
         </Menu.Items>
