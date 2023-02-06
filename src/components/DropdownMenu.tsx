@@ -28,11 +28,17 @@ export default function DropdowMenu() {
             <div className="px-3 py-2 uppercase font-bold text-xs">
               Categories
             </div>
-            <DropdownMenuItem href='/Categore_one'>
-              Categore one
+            <DropdownMenuItem href="/categories/computing">
+              Computing
             </DropdownMenuItem>
-            <DropdownMenuItem href='/Categore_two'>
-              Categore two
+            <DropdownMenuItem href="/categories/desk">
+              Desk
+            </DropdownMenuItem>
+            <DropdownMenuItem href='/categories/videography'>
+              Videography
+            </DropdownMenuItem>
+            <DropdownMenuItem href='/categories/test'>
+              Test
             </DropdownMenuItem>
           </div>
         </Menu.Items>
